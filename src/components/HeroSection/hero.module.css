@@ -1,41 +1,64 @@
-
 .HeroGrid {
- margin-top: 4em;
- height: 100dvh;
+  padding: 2em;
+  padding-top: 3em;
+  height: 700px;
 }
 @media screen and (max-width: 768px) {
-    .HeroGrid {
-        gap: 8em ;
-        height: 100vh;
-    }
-    
+  .HeroGrid {
+    gap: 8em;
+    height: 100vh;
+  }
+  .grid1 {
+    grid-template-columns: 1fr;
+  }
+  .HeroImageIcon {
+    width: 300px;
+    height: 300px;
+  }
 }
-.GridItem1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.GridItem1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.text1{
-    color:color-mix(in srgb-linear, red  , green 50%);
+.text1 {
+  color: color-mix(in srgb-linear, red, green 50%);
 }
-.HeroImageIcon:hover{
-    filter: drop-shadow(0 0 0.5rem #249b22);
+.HeroImageIcon:hover {
+  filter: drop-shadow(0 0 0.5rem #249b22);
 }
 
-.btn{
-    background:linear-gradient(90deg, #021bfb 0%, #040324 100%);
-    color: white;
-    width: 120px;
-    height: 45px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.btn {
+  background: linear-gradient(90deg, #021bfb 0%, #040324 100%);
+  color: white;
+  width: 120px;
+  height: 35px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
-.btn:hover{
-    background:linear-gradient(90deg, #040324 0%, #021bfb 100%);
-    color: white;
-    transform: scale(1.1);
+.btn:hover {
+  background: linear-gradient(90deg, #040324 0%, #021bfb 100%);
+  color: color-mix(in srgb-linear, #fb0202, #1aff00 50%);
+  transform: scale(1.1);
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+.btn {
+  color: color-mix(in srgb-linear, #fb0202, #2705d1 50%);
+  font-size: 1.2em;
+  font-weight: 500;
 }
