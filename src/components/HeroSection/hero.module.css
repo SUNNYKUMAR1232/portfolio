@@ -56,6 +56,26 @@
   align-items: center;
   gap: 1em;
   margin-top: 2em;
+  animation: fadeIn 1s ease-in;
+  transition: 1s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  75% {
+    opacity: 0.5;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .btn {
   color: color-mix(in srgb-linear, #fb0202, #2705d1 50%);

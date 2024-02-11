@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+}
+.notFound {
+  font-size: 10rem;
+  color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
+  background: linear-gradient(145deg, #fb0202, #3007ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+.text {
+  font-size: 2rem;
+  color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
+  background: linear-gradient(145deg, #fb0202, #3007ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.text1 {
+  font-size: 4rem;
+  color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
+  background: linear-gradient(145deg, #fb0202, #3007ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.back {
+  color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
+  background: linear-gradient(145deg, #fb0202, #3007ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 520px;
+  height: 35px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  gap: 1em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.backIcon {
+  font-size: 2rem;
+}
