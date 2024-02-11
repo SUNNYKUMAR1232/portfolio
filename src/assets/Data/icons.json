@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Home",
+        "icon":"lets-icons:home-duotone"
+    },
+    {
+        "name": "linkedin",
+        "icon":"uim:linkedin-alt"
+    },
+    {
+        "name": "instagram",
+        "icon":"uim:instagram"
+    },
+    {
+        "name": "multiply",
+        "icon":"uim:multiply"
+    },
+    {
+        "name": "bars",
+        "icon":"uim:bars"
+    },
+    {
+        "name": "angle-left",
+        "icon":"uim:angle-left"
+    },
+    {
+        "name": "angle-right",
+        "icon":"uim:angle-right"
+    },
+    {
+        "name": "graduation",
+        "icon":"mdi:account-graduation"
+    },
+    {
+        "name": "briefcasey",
+        "icon":"bxs:briefcase"
+    },
+    {
+        "name": "person",
+        "icon":"ic:baseline-person"
+    },
+    {
+        "name": "mail",
+        "icon":"fluent:mail-24-filled"
+    },
+    {
+        "name": "phone",
+        "icon":"ic:baseline-phone"
+    },
+    {
+        "name": "message",
+        "icon":"ant-design:message-filled"
+    }
+]

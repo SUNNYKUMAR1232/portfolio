@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Home",
+    "path": "/",
+    "icon": "clarity:home-solid"
+  },
+  {
+    "name": "Services",
+    "path": "/services",
+    "icon": "uil:setting"
+  },
+  {
+    "name": "Blog",
+    "path": "/blog",
+    "icon": "ion:book"
+  },
+  {
+    "name": "Projects",
+    "path": "/projects",
+    "icon": "icons8:idea"
+  },
+  {
+    "name": "About",
+    "path": "/about",
+    "icon": "mdi:account"
+  },
+  {
+    "name": "Contact",
+    "path": "/contact",
+    "icon": "mdi:contact"
+  }
+]
