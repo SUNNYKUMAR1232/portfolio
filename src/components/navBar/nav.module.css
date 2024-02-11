@@ -19,6 +19,25 @@
   justify-self: center;
   width: 140px;
   height: 40px;
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  75% {
+    opacity: 0.5;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .item {
   position: relative;
@@ -37,13 +56,13 @@
 .menuBox {
   position: fixed;
   text-align: center;
-    top: 0;
-    left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 60px;
   background-color: rgba(0, 0, 0, 0.5);
   transition: 0.5s;
-    z-index: 100;
+  z-index: 100;
 }
 
 .menuItemBox {
@@ -87,7 +106,7 @@
   left: 0;
   width: 0;
   height: 1.5px;
-  background-color: rgb(255, 2, 2);
+  background: linear-gradient(to right, #fb0202, #3007ff);
   transition: width 0.5s;
 }
 .link:hover::after {
@@ -99,47 +118,58 @@
 .icon {
   font-size: 22px;
 }
-.text{
-    letter-spacing: 3px;
-    font-size: 1.1em;
+.text {
+  letter-spacing: 3px;
+  font-size: 1.1em;
 }
 /* linkList */
-.listBox{
-position: relative;
-display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100dvw;
-    height: 100%;
+.listBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100%;
 }
-.listItem{
-    position: relative;
-    height: 40px;
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 12px;
-    color: white;
-    padding-left: 30px;
+.listItem {
+  position: relative;
+  height: 40px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  color: white;
+  padding-left: 30px;
 }
-
-
+.text {
+  letter-spacing: 3px;
+  font-size: 1.1em;
+  color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
+  background: linear-gradient(145deg, #fb0202, #3007ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.icon {
+  font-size: 22px;
+  color: color-mix(in srgb-linear, #fb0202, #2705d1 50%);
+}
 /*  progressive line */
-.line{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 3px;
-    background-color: rgb(255, 2, 2);
-    transition:  0.1s ease-in;
+.line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: linear-gradient(145deg, #fb0202, #3007ff);
+  transition: 0.1s ease-in;
 }
 .progressBar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 4px;
-    background: red;
-    transform-origin: 0%;
-  }
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(145deg, #fb0202, #3007ff);
+  transform-origin: 0%;
+}

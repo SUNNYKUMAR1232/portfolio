@@ -1,7 +1,6 @@
-
 import React from "react";
 import Image from "next/image";
-import { Button, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import HeroImage from "../../assets/image/frofile.png";
 import TypingEffect from "./typingEffect";
 import ContactLinks from "./ContactLinks";
@@ -18,17 +17,19 @@ const Hero = () => {
       >
         <Grid item xs={6} sx={HeroStyle.GridItem2}>
           <TypingEffect />
-          <button className={styles.btn}> Hire Me</button>
+          <div className={styles.btnBox}>
+            <a className={styles.btn}> Hire Me</a>
+            <a className={styles.btn}> CV</a>
+          </div>
           <ContactLinks Links={Links} />
         </Grid>
-        <Grid item xs={6} sx={HeroStyle.GridItem1}>
+        <Grid item xs={6} sx={HeroStyle.GridItem1} className={styles.grid1}>
           <motion.div
             animate={HeroStyle.animate}
             initial={HeroStyle.initial}
             whileHover={{ scale: 1.1 }}
             transition={HeroStyle.transition}
             style={HeroStyle.HeroImageIcon}
-            
           >
             <Image
               src={HeroImage}
@@ -67,7 +68,6 @@ const HeroStyle = {
     background: "rgba(126, 44, 141, 0.1)",
     backdropFilter: "blur(10px)",
     filter: "drop-shadow(0 0 0.5rem #2baee2)",
-    
   },
   img: {
     borderRadius: "50%",
