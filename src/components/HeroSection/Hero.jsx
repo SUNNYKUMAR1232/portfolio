@@ -18,8 +18,8 @@ const Hero = () => {
         <Grid item xs={6} sx={HeroStyle.GridItem2}>
           <TypingEffect />
           <div className={styles.btnBox}>
-            <a className={styles.btn}> Hire Me</a>
-            <a className={styles.btn}> CV</a>
+            <a className={styles.btn} href=""> Hire Me</a>
+            <a className={styles.btn} href="https://github.com/SUNNYKUMAR1232/CV/blob/main/122EE0372_SunnyKumar.pdf"> CV</a>
           </div>
           <ContactLinks Links={Links} />
         </Grid>
