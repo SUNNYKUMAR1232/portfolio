@@ -8,6 +8,7 @@
   flex-direction: column;
   background: transparent;
   animation: fadeIn 1s ease-in;
+  padding: 1em;
 }
 .notFound {
   font-size: 18rem;
@@ -75,12 +76,30 @@
   .container {
     height: 100dvh;
   }
-  .grid1 {
-    grid-template-columns: 1fr;
+  .notFound {
+    font-size: 8rem;
   }
-  .HeroImageIcon {
-    width: 300px;
-    height: 300px;
+  .text1 {
+    margin-top: -1em;
+    font-size: 2em
+  }
+  .back {
+    width: 100%;
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .Imageerror {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -12;
+    opacity: 0.3;
+    transition: all 0.5s ease;
+    animation: fadeIn 1s ease-in;
   }
 }
 @keyframes fadeIn {
