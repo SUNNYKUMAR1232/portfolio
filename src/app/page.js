@@ -9,7 +9,6 @@ import Education from "@/components/Education/Education";
 import Footer from "@/components/Footer/Footer";
 import Skill from "@/components/Skills/Skill";
 import { Box } from "@mui/material";
-import Imagekit from "@/features/imagekit";
 export default function Home() {
   return (
     <main>
