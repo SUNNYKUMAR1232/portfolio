@@ -1,3 +1,4 @@
+/* not found page */
 .container {
   width: 100%;
   min-height: 100vh;
@@ -6,30 +7,27 @@
   align-items: center;
   flex-direction: column;
   background: transparent;
+  animation: fadeIn 1s ease-in;
 }
 .notFound {
-  font-size: 10rem;
+  font-size: 18rem;
   color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
   background: linear-gradient(145deg, #fb0202, #3007ff);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-weight: 900;
-  margin: 0;
-  padding: 0;
 }
 .text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
   background: linear-gradient(145deg, #fb0202, #3007ff);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   font-weight: 500;
-  margin: 0;
-  padding: 0;
 }
 .text1 {
+  margin-top: -1.2em;
   font-size: 4rem;
   color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
   background: linear-gradient(145deg, #fb0202, #3007ff);
@@ -37,8 +35,6 @@
   -webkit-background-clip: text;
   color: transparent;
   font-weight: 500;
-  margin: 0;
-  padding: 0;
 }
 .back {
   color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
@@ -61,4 +57,47 @@
 }
 .backIcon {
   font-size: 2rem;
+}
+.Imageerror {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -12;
+  opacity: 0.3;
+  transition: all 0.5s ease;
+  animation: fadeIn 1s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 100dvh;
+  }
+  .grid1 {
+    grid-template-columns: 1fr;
+  }
+  .HeroImageIcon {
+    width: 300px;
+    height: 300px;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  75% {
+    opacity: 0.5;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
