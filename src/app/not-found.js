@@ -2,7 +2,10 @@ import Link from "next/link";
 import styles from "./system.module.css";
 import error from "../assets/image/error.png";
 import Image from "next/image";
-
+export const metadata = {
+  title: 'error 404',
+  description: 'Sorry, there is nothing here',
+}
 export default function NotFound() {
   return (
     <div className={styles.container}>
