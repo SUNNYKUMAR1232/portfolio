@@ -1,18 +1,17 @@
 [
-    {
-        "name":"Linkedin",
-        "url":"https://www.linkedin.com/in/sunny-kumar-620s/",
-        "icon":"mdi:linkedin"
-    },
-    {
-        "name":"Github",
-        "url":"https://github.com/SUNNYKUMAR1232",
-        "icon":"mdi:github"
-    },
-    {
-        "name":"Instagram",
-        "url":"https://www.instagram.com/sunny.kumar232/",
-        "icon":"mdi:instagram"
-    }
-   
+  {
+    "name": "Linkedin",
+    "path": "https://www.linkedin.com/in/sunny-kumar-620s/",
+    "icon": "mdi:linkedin"
+  },
+  {
+    "name": "Github",
+    "path": "https://github.com/SUNNYKUMAR1232",
+    "icon": "mdi:github"
+  },
+  {
+    "name": "Instagram",
+    "path": "https://www.instagram.com/sunny.kumar232/",
+    "icon": "mdi:instagram"
+  }
 ]
