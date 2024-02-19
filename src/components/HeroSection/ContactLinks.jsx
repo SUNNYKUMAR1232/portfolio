@@ -15,7 +15,7 @@ const ContactLinks = ({ Links }) => {
             key={index}
           >
             <Box sx={ContactLinksStyle.LinksBox}>
-              <Link href={item.url}>
+              <Link href={item.path}>
                 <Icon icon={item.icon}></Icon>
               </Link>
             </Box>

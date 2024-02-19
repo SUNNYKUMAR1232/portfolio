@@ -5,8 +5,8 @@
 }
 @media screen and (max-width: 768px) {
   .HeroGrid {
-    gap: 8em;
-    height: 100vh;
+    gap: 2em;
+    height: 800px;
   }
   .grid1 {
     grid-template-columns: 1fr;
@@ -26,7 +26,9 @@
   color: color-mix(in srgb-linear, red, green 50%);
 }
 .HeroImageIcon:hover {
-  filter: drop-shadow(0 0 0.5rem #249b22);
+  filter: drop-shadow(
+    0 0 0.5rem color-mix(in srgb-linear, rgb(9, 255, 0), rgb(0, 2, 128) 50%)
+  );
 }
 
 .btn {
