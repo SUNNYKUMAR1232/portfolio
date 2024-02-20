@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
- *{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
- }
-    body{
-        background: linear-gradient(to right, #0f0f27, #212043, #332c64, #65175a);
-    }
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(to right, #0f0f27, #212043, #332c64, #65175a);
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+}
+@media (max-width: 786px) {
+  body {
+    min-width: 500px;
+  }
+}
