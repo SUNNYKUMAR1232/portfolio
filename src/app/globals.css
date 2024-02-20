@@ -9,13 +9,15 @@
   font-family: "Poppins", sans-serif;
 }
 body {
+  position: relative;
   background: linear-gradient(to right, #0f0f27, #212043, #332c64, #65175a);
-  width: 100%;
-  height: auto;
   background-attachment: fixed;
+}
+html {
+  scroll-behavior: smooth;
 }
 @media (max-width: 786px) {
   body {
-    min-width: 500px;
+    min-width: 400px;
   }
 }
