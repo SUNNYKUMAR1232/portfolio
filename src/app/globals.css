@@ -18,6 +18,6 @@ html {
 }
 @media (max-width: 786px) {
   body {
-    min-width: 400px;
+    min-width: 600px;
   }
 }
