@@ -73,7 +73,6 @@ const FooterStyle = {
   root: {
     position: "relative",
     backgroundColor: "#14104d8",
-    color: "#fff",
     width: "100%",
     height: { xs: "160vh", md: "60vh" },
     display: "flex",
@@ -102,23 +101,14 @@ const FooterStyle = {
     alignItems: "center",
     justifyContent: "center",
     iconText: {
-      color: "color-mix(in srgb-linear, #17fb02, #2705d1 50%)",
-      background: "linear-gradient(120deg, #871616, #0f0540)",
-      backgroundClip: "text",
-      WebkitBackgroundClip: "text",
-      color: "transparent",
       fontSize: "2.5rem",
     },
   },
   text: {
-    color: "color-mix(in srgb-linear, #17fb02, #2705d1 50%)",
-    background: "linear-gradient(145deg, #6a0f0f, #140c3c)",
-    backgroundClip: "text",
-    WebkitBackgroundClip: "text",
-    color: "transparent",
+    color: "#000000",
   },
   text1: {
-    color: "#9098d3",
+    color: "#000000",
   },
   Common: {
     display: "flex",
