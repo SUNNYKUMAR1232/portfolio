@@ -10,7 +10,7 @@
 }
 body {
   position: relative;
-  background: linear-gradient(to right, #0f0f27, #212043, #332c64, #65175a);
+  background: #ffffff;
   background-attachment: fixed;
 }
 html {

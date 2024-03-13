@@ -7,6 +7,7 @@ import ContactLinks from "./ContactLinks";
 import Links from "../../assets/Data/ContactLinks.json";
 import { motion } from "framer-motion";
 import styles from "./hero.module.css";
+import Particles from "..//..//features/particles";
 const Hero = () => {
   return (
     <>
@@ -25,10 +26,6 @@ const Hero = () => {
         </Grid>
         <Grid item xs={6} sx={HeroStyle.GridItem1} className={styles.grid1}>
           <motion.div
-            animate={HeroStyle.animate}
-            initial={HeroStyle.initial}
-            whileHover={{ scale: 1.1 }}
-            transition={HeroStyle.transition}
             style={HeroStyle.HeroImageIcon}
           >
             <Image
@@ -41,6 +38,7 @@ const Hero = () => {
             />
           </motion.div>
         </Grid>
+        <Particles />
       </Grid>
     </>
   );
@@ -65,26 +63,14 @@ const HeroStyle = {
   },
   HeroImageIcon: {
     borderRadius: "50%",
-    background: "rgba(126, 44, 141, 0.1)",
-    backdropFilter: "blur(10px)",
-    filter: "drop-shadow(0 0 0.5rem #2baee2)",
+    background: "rgba(126, 44, 141, 0.01)",
+    backdropFilter: "blur(5px)",
+    
   },
   img: {
     borderRadius: "50%",
-    height: "400px",
-    width: "400px",
+    height: "350px",
+    width: "350px",
   },
-  animate: {
-    opacity: 1,
-    y: 0,
-  },
-  initial: {
-    opacity: 0,
-    y: -20,
-  },
-  transition: {
-    duration: 1,
-    damping: 20,
-    ease: "easeInOut",
-  },
+
 };

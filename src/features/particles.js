@@ -38,9 +38,11 @@ const Particle= () => {
       },
      fullScreen: {
         enable: true,
-        zIndex:-1000
+        zIndex: -1,
+        width: "100%",
+        height: "100vh",
       },
-      fpsLimit: 150,
+      fpsLimit: 60,
       /* interactivity: {
         events: {
           onClick: {
@@ -64,10 +66,10 @@ const Particle= () => {
       }, */
       particles: {
         color: {
-          value: "#000",
+          value: "rgb(255, 0,0)",
         },
         links: {
-          color: "#000",
+          color: "#2baee2",
           distance: 150,
           enable: true,
           opacity: 0.5,

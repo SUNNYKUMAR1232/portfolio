@@ -2,6 +2,7 @@
   padding: 2em;
   padding-top: 3em;
   height: 700px;
+  background:transparent;
 }
 @media screen and (max-width: 768px) {
   .HeroGrid {
@@ -25,14 +26,14 @@
 .text1 {
   color: color-mix(in srgb-linear, red, green 50%);
 }
-.HeroImageIcon:hover {
+/* .HeroImageIcon:hover {
   filter: drop-shadow(
     0 0 0.5rem color-mix(in srgb-linear, rgb(9, 255, 0), rgb(0, 2, 128) 50%)
   );
-}
+} */
 
 .btn {
-  background: linear-gradient(90deg, #021bfb 0%, #040324 100%);
+  background: #040324;
   color: white;
   width: 120px;
   height: 35px;
@@ -47,8 +48,6 @@
   transition: all 0.3s ease;
 }
 .btn:hover {
-  background: linear-gradient(90deg, #040324 0%, #021bfb 100%);
-  color: color-mix(in srgb-linear, #fb0202, #1aff00 50%);
   transform: scale(1.1);
 }
 

@@ -5,12 +5,13 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.501);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.251);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
+  backdrop-filter: blur(2px);
 }
 .navItemBox {
   position: sticky;
@@ -106,7 +107,7 @@
   left: 0;
   width: 0;
   height: 1.5px;
-  background: linear-gradient(to right, #fb0202, #3007ff);
+  background: #000;
   transition: width 0.5s;
 }
 .link:hover::after {
@@ -146,11 +147,7 @@
 .text {
   letter-spacing: 3px;
   font-size: 1.1em;
-  color: color-mix(in srgb-linear, #17fb02, #2705d1 50%);
-  background: linear-gradient(145deg, #fb0202, #3007ff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #000;
 }
 .icon {
   font-size: 22px;
@@ -162,7 +159,7 @@
   bottom: 0;
   left: 0;
   height: 3px;
-  background-color: linear-gradient(145deg, #fb0202, #3007ff);
+  background-color: #000;
   transition: 0.1s ease-in;
 }
 .progressBar {

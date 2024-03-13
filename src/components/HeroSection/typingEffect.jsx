@@ -13,17 +13,17 @@ const TypingEffect = () => {
         <span style={TypingEffectStyle.text3}>,</span> <br></br>
         <span style={TypingEffectStyle.text2}>I&apos;m </span>
         <TypeAnimation
-          sequence={["Sunny", 1000, " ", 1000]}
+          sequence={["Sunny", 100, " ", 100]}
           wrapper="span"
-          speed={50}
+          speed={400}
           style={TypingEffectStyle.Into}
           repeat={Infinity}
         />
       </Typography>
       <TypeAnimation
-        sequence={["Web Developer", 1000, "UI/UX Designer", 1000]}
+        sequence={["Web Developer", 100, "UI/UX Designer", 100]}
         wrapper="span"
-        speed={50}
+        speed={300}
         style={TypingEffectStyle.Skill}
         repeat={Infinity}
       />
