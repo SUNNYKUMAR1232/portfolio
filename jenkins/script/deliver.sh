@@ -1,8 +1,9 @@
 #!/usr/bin/env sh
-
+npm install -g serve npm install -g pm2
+npm install -g nodemon
 npm run build
 
-npm start &
+npm run dev &
 sleep 1
 echo $! > .pidfile
 
